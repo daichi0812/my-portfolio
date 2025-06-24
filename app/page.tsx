@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Github, Linkedin, Twitter, Code, Smartphone, Cpu, ExternalLink, Menu, X } from 'lucide-react';
 
 // Main App Component

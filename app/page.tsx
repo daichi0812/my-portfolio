@@ -9,6 +9,13 @@ const App = () => {
   // Project data - ここにあなたのプロジェクト情報を追加・編集してください
   const projects = [
     {
+      title: 'Basic DEM Simulation',
+      description: 'Pythonのtkinterというライブラリを用いて、粒子一つ一つを計算する個別要素法(Discrete Element Method)を簡単に実装しました。',
+      tags: ['Python', '物理シミュレーション'],
+      imageUrl: '/images/basic-dem-simulation.png',
+      link: 'https://github.com/daichi0812/basic-dem-simulation', // あなたのGitHubリポジトリへのリンク
+    },
+    {
       title: 'Madoi',
       description: 'Flutterを用いて、自分の所属する自動車部向けて、自動車の整備記録やセッティング記録、ToDoリストをまとめたアプリを開発しました。',
       tags: ['Flutter', 'Dart'],
@@ -20,7 +27,7 @@ const App = () => {
       description: 'MPM(Material Point Method の簡単なシミュレーションを実装しました。',
       tags: ['C++', 'OpenGL','SFML'],
       imageUrl: '/images/simple-mpm-cpp.png',
-      link: 'https://github.com/daichi0812/2d-stable-fluids', // あなたのGitHubリポジトリへのリンク
+      link: 'https://github.com/daichi0812/simple-mpm-cpp', // あなたのGitHubリポジトリへのリンク
     },
     {
       title: '2D Stable Fluids',
